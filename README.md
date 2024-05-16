@@ -86,6 +86,7 @@ endcase
 end end
 
 endmodule
+
 OUTPUT WAVEFORM
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/38fd661e-d16a-48ca-a2a1-4bba9f24bb26)
 
@@ -298,6 +299,7 @@ OUTPUT WAVEFORM:
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/4b87e775-7e45-4be2-9fbc-98e5647f468d)
 
 RESULT:
+
 Thus,the simulation and synthesis of SR,JK,T,D flipflops,counters by using vivado has been successfully excecuted and verified.
 
 
