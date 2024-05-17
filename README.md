@@ -31,25 +31,6 @@ SR FLIPFLOP
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-
-JK FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
-
-T FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
-
-
-D FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
-
-
-COUNTER
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-
 VERILOG CODE
 
    SR FLIPFLOP:
@@ -88,9 +69,15 @@ end end
 endmodule
 
 OUTPUT WAVEFORM
+
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/38fd661e-d16a-48ca-a2a1-4bba9f24bb26)
 
+JK FLIPFLOP
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
+
 JK FLIPFLOP:
+
 module jkff(clk,j,k,rst,q );
 
 input j,k,clk,rst;
@@ -126,7 +113,13 @@ end
 endmodule
 
 ## OUTPUT WAVEFORM:
+
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/e924c859-1b81-4942-a1fe-290e5cebfce1)
+
+T FLIPFLOP
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
+
 T FLIPFLOP:
 module tff(clk,reset,t,q);
 
@@ -163,6 +156,10 @@ endmodule
 OUTPUT WAVEFORM:
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/32a36ca8-4167-4971-a7de-968967cc6819)
 
+D FLIPFLOP
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
+
 D FLIPFLOP:
 module dff(clk,d,rst,q );
 
@@ -187,7 +184,13 @@ end
 endmodule
 
 OUTPUT WAVEFORM:
-![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/4364a8c0-a59f-4ebf-8119-75383024deb7)
+!
+[image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/4364a8c0-a59f-4ebf-8119-75383024deb7)
+
+COUNTER
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
+
 UPDOWN COUNTER:
 module updown(clk,rst,up_down,count);
 
@@ -217,6 +220,7 @@ endmodule
 
 OUTPUT WAVEFORM:
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/a06e8907-7ecc-4f43-a309-3fa5b84210b3)
+
 MOD 10 COUNTER:
 module mod(clk,rst,count);
 
@@ -242,6 +246,7 @@ endmodule
 
 OUTPUT WAVEFORM:
 ![image](https://github.com/9959066971/VLSI-LAB-EXP-4/assets/167750672/c7745602-67fc-47fe-802f-f45201d6352b)
+
 RIPPLE COUNTER:
 module ripplecounter(clk,rst,q);
 
